@@ -17,3 +17,19 @@ function toggleMode() {
     img.setAttribute("src", "./assets/jravatar.png")
   }
 }
+
+const tiktokLink = document.getElementById("space-link")
+if (tiktokLink) {
+  tiktokLink.addEventListener("click", function (event) {
+    event.preventDefault()
+    alert("Estamos a construir nosso espaço 🙌")
+  })
+}
+
+const websiteLink = document.getElementById("website-link")
+if (websiteLink) {
+  websiteLink.addEventListener("click", function (event) {
+    event.preventDefault()
+    alert("Link do Website em desenvolvimento 🙌")
+  })
+}
